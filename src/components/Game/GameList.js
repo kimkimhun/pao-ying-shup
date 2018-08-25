@@ -5,10 +5,10 @@ export default class GameList extends Component {
     const { choices, onChoiceClick } = this.props
     return (
       <div>
-        {choices.map(({ choice, name }, index) => (
+        {choices.map((choice, index) => (
           <div key={index}>
-            <h1>{name}</h1>
-            <button onClick={onChoiceClick.bind(this, choice)}>{name}</button>
+            <h1>{choice}</h1>
+            <button onClick={onChoiceClick.bind(this, choice)}>{choice}</button>
           </div>
         ))}
       </div>
