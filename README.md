@@ -1,6 +1,6 @@
-#PAO YING SHUP GAME
+# PAO YING SHUP GAME
 
-##Set up for development
+## Set up for development
 
 ### Prerequisite
 - NodeJS (install by [NVM](https://github.com/creationix/nvm#install-script) is recommended)
