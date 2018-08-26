@@ -13,10 +13,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "predeploy": "yarn build",
+    "predeploy": "yarn build && yarn react-snap",
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "gh-pages": "^1.2.0"
+    "gh-pages": "^1.2.0",
+    "react-snap": "^1.10.1"
   }
 }
